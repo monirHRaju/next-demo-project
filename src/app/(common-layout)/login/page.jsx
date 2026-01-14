@@ -1,13 +1,13 @@
 import LoginForm from '@/components/form/LoginForm';
 import React from 'react';
 
-const Profile = () => {
+const Login = () => {
     return (
         <div>
-            <h1>Profile Page</h1>
-          
+            <h1>Login Page</h1>
+            <LoginForm></LoginForm>
         </div>
     );
 };
 
-export default Profile;
+export default Login;
