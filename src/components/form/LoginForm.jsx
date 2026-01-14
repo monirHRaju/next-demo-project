@@ -1,5 +1,5 @@
-"use client";
-import { useRouter } from "next/router";
+"use client" 
+import { useRouter } from "next/navigation";
 import React from "react";
 import { useForm } from "react-hook-form";
 
@@ -11,7 +11,7 @@ const LoginForm = () => {
     formState: { errors }
   } = useForm();
 
-  const router = useRouter
+  const router = useRouter()
   const handleLogin = (data) => {
     if(data.email === "admin@email.com" && data.password === "123456"){
     //   alert("Login Successful");
